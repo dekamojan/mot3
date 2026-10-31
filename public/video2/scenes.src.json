@@ -1,0 +1,205 @@
+{
+  "style": "explainer",
+  "brand": "mamas",
+  "tag": "Tips Jualan Simpel",
+  "accent": "#22d3ee",
+  "char": "robot",
+  "charColor": "#222222",
+  "cta": "Link-nya di bio",
+  "scenes": [
+    {
+      "start": 0,
+      "title": "Kebanyakan orang *salah* di satu hal ini,",
+      "small": 2,
+      "mascot": "center",
+      "pose": "shock",
+      "stage": [
+        {
+          "type": "stat",
+          "value": "90%",
+          "label": "Gagal di awal"
+        }
+      ]
+    },
+    {
+      "start": 3.1,
+      "title": "soal *jualan.*",
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img01.png",
+          "caption": "Masalah utama jualan",
+          "at": "jualan",
+          "h": 700,
+          "frame": false
+        }
+      ]
+    },
+    {
+      "start": 5.1,
+      "title": "Kamu nunggu produk *sempurna* banget,",
+      "small": 2,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img02.png",
+          "caption": "Menunggu sempurna",
+          "at": "sempurna",
+          "h": 700,
+          "frame": false
+        }
+      ]
+    },
+    {
+      "start": 7.4,
+      "title": "baru *berani* posting kan?",
+      "small": 1,
+      "mascot": "left",
+      "pose": "think",
+      "stage": [
+        {
+          "type": "compare",
+          "left": {
+            "title": "Nunggu",
+            "tone": "#e5252a",
+            "items": [
+              "Produk Sempurna",
+              "Lama Rilis"
+            ]
+          },
+          "right": {
+            "title": "Posting",
+            "tone": "#1f9d8a",
+            "items": [
+              "Cepat Mulai",
+              "Dapat Feedback"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "start": 9.6,
+      "title": "Padahal, mending coba mulai dari status *WhatsApp* dulu.",
+      "small": 2,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img03.png",
+          "caption": "Mulai di WhatsApp",
+          "at": "WhatsApp",
+          "h": 700,
+          "frame": false
+        }
+      ]
+    },
+    {
+      "start": 13.4,
+      "title": "Terus, fokus kasih *solusi,*",
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img04.png",
+          "caption": "Berikan solusi",
+          "at": "solusi",
+          "h": 700,
+          "frame": false
+        }
+      ]
+    },
+    {
+      "start": 15.7,
+      "title": "bukan cuma *maksa* orang beli.",
+      "small": 2,
+      "stage": [
+        {
+          "type": "window",
+          "title": "Percakapan",
+          "tone": "#e5252a",
+          "rows": [
+            {
+              "k": "bubble",
+              "from": "user",
+              "text": "Beli dong kak!"
+            },
+            {
+              "k": "bubble",
+              "from": "bot",
+              "text": "Gak butuh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 18.3,
+      "title": "Jualan bakal terasa jauh lebih *ringan* nantinya.",
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img05.png",
+          "caption": "Jadi lebih ringan",
+          "at": "ringan",
+          "h": 700,
+          "frame": false
+        }
+      ]
+    },
+    {
+      "start": 21.6,
+      "title": "Nah, makanya *simpan* video ini ya,",
+      "small": 2,
+      "mascot": "left",
+      "pose": "point",
+      "stage": [
+        {
+          "type": "callout",
+          "title": "Simpan Video",
+          "sub": "Tonton saat ragu",
+          "cta": "Klik Simpan"
+        }
+      ]
+    },
+    {
+      "start": 24.8,
+      "title": "biar kamu makin *berani* pas mulai besok.",
+      "small": 2,
+      "mascot": "left",
+      "pose": "cheer",
+      "stage": [
+        {
+          "type": "callout",
+          "title": "biar kamu makin berani",
+          "sub": "mamas",
+          "cta": ""
+        }
+      ]
+    }
+  ],
+  "header": true,
+  "charStyle": "block",
+  "transitions": [
+    "fade",
+    "slide-left",
+    "zoom"
+  ],
+  "transitionsMode": "cycle",
+  "backgrounds": [
+    "cream",
+    "mint",
+    "sky",
+    "grid",
+    "navy"
+  ],
+  "bgMode": "auto",
+  "bgEvery": 1,
+  "theme": "hud",
+  "audio": {
+    "music": true,
+    "sfx": true,
+    "blockSfx": true
+  }
+}
