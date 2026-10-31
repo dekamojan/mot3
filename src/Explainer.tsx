@@ -165,14 +165,15 @@ type Cx = { ws: W[]; base: number; t: number; accent: string; name: string; ink:
 const Ctx = React.createContext<Cx>({ ws: [], base: 0, t: 0, accent: C.red, name: "", ink: C.ink, mute: C.mute, theme: "clean" });
 
 // waktu (detik, absolut) kapan sebuah elemen muncul: kata tertentu di title, detik relatif, atau default
+// Anti-layar-kosong: dibatasi maksimal 0.45s dari awal adegan agar penonton langsung melihat visual
 const resolveT = (at: string | number | undefined, cx: Cx, fallback: number) => {
-  if (typeof at === "number") return cx.base + at;
+  if (typeof at === "number") return cx.base + Math.min(0.45, at);
   if (typeof at === "string") {
     const k = norm(at);
     const h = k ? cx.ws.find((w) => norm(w.w).startsWith(k)) : undefined;
-    if (h) return h.a;
+    if (h) return Math.min(h.a, cx.base + 0.45);
   }
-  return cx.base + fallback;
+  return cx.base + Math.min(0.45, fallback);
 };
 
 const card: React.CSSProperties = {
@@ -188,9 +189,33 @@ const card: React.CSSProperties = {
 const Appear: React.FC<{ t0: number; children: React.ReactNode; style?: React.CSSProperties }> = ({ t0, children, style }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const s = clamp01(spring({ frame: frame - Math.round(t0 * fps), fps, config: { damping: 15, stiffness: 150 } }));
+  const { theme } = React.useContext(Ctx);
+
+  // Waktu berlalu sejak elemen mulai muncul
+  const elapsed = frame - Math.round(t0 * fps);
+
+  // Animasi masuk: Spring dinamis dengan sedikit pop/overshoot (bouncy)
+  const s = clamp01(spring({ frame: elapsed, fps, config: { damping: 13, stiffness: 170, mass: 0.85 } }));
+
+  // Animasi mengambang lembut (idle floating/breathing) setelah objek stabil agar video tidak kaku/mati
+  const tLive = Math.max(0, elapsed / fps);
+  const isSettled = elapsed > Math.round(0.35 * fps);
+  const floatY = isSettled ? Math.sin(tLive * 2.2) * 4 : 0;
+  const tiltDeg = theme === "classic" && !isSettled ? (1 - s) * -2 : 0;
+  const hudFilter = theme === "hud" ? "drop-shadow(0 0 18px rgba(34, 211, 238, 0.2))" : undefined;
+
   return (
-    <div style={{ opacity: clamp01(s * 1.6), transform: `translateY(${(1 - s) * 22}px) scale(${0.97 + 0.03 * s})`, ...style }}>{children}</div>
+    <div
+      style={{
+        opacity: clamp01(s * 1.8),
+        transform: `translateY(${(1 - s) * 28 + floatY}px) scale(${0.91 + 0.09 * s}) rotate(${tiltDeg}deg)`,
+        transformOrigin: "center center",
+        filter: hudFilter,
+        ...style
+      }}
+    >
+      {children}
+    </div>
   );
 };
 
