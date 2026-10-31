@@ -1,0 +1,407 @@
+{
+  "style": "explainer",
+  "tag": "Jualan Pertama",
+  "accent": "#e5252a",
+  "char": "girl",
+  "charColor": "#222222",
+  "cta": "Link-nya di bio",
+  "scenes": [
+    {
+      "title": "Kebanyakan orang *salah* di satu hal ini,",
+      "start": 0,
+      "small": 2,
+      "stage": [
+        {
+          "type": "stat",
+          "value": "90%",
+          "label": "Salah langkah"
+        }
+      ]
+    },
+    {
+      "title": "soal mulai *jualan.*",
+      "start": 2.4,
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img01.png",
+          "h": 700,
+          "caption": "Bingung mau mulai"
+        }
+      ]
+    },
+    {
+      "title": "Makanya, kamu ngerasa *berat* banget di awal",
+      "start": 4.6,
+      "small": 3,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img02.png",
+          "h": 700,
+          "caption": "Beban ekspektasi"
+        }
+      ]
+    },
+    {
+      "title": "dan nggak jalan *-jalan.*",
+      "start": 7.2,
+      "small": 2,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img03.png",
+          "hold": true,
+          "h": 700,
+          "caption": "Tidak ada yang peduli"
+        }
+      ]
+    },
+    {
+      "title": "Eh, dengerin *dulu* ya.",
+      "start": 9.3,
+      "small": 1,
+      "mascot": "center",
+      "pose": "wave",
+      "stage": [
+        {
+          "type": "dialog",
+          "title": "Tips Penting",
+          "text": "Jangan skip bagian ini",
+          "sub": "Mulai Jualan",
+          "buttons": [
+            "Batal",
+            "Izinkan"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sebenernya, orang itu nggak *sepeduli* itu",
+      "start": 11.3,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img04.png",
+          "h": 700,
+          "caption": "Membantu sesama"
+        }
+      ]
+    },
+    {
+      "title": "sama kegagalan *kamu.*",
+      "start": 13.6,
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img05.png",
+          "hold": true,
+          "h": 700,
+          "caption": "Beban menghilang"
+        }
+      ]
+    },
+    {
+      "title": "Mereka tuh cuma peduli gimana produk kamu",
+      "start": 14.9,
+      "small": 3,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img06.png",
+          "h": 700,
+          "caption": "Target yang jauh"
+        }
+      ]
+    },
+    {
+      "title": "bisa *bantu* nyelesain masalah mereka hari itu.",
+      "start": 17.5,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img07.png",
+          "hold": true,
+          "at": "bantu",
+          "h": 700,
+          "caption": "Belajar proses"
+        }
+      ]
+    },
+    {
+      "title": "Terus, mendingan kamu mulai aja dari *lingkaran* paling kecil,",
+      "start": 20.8,
+      "small": 2,
+      "stage": [
+        {
+          "type": "tree",
+          "cols": [
+            {
+              "head": "Target",
+              "mid": "Circle",
+              "tag": "Keluarga"
+            },
+            {
+              "head": "Media",
+              "mid": "WA",
+              "tag": "Privat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "kayak temen dekat atau keluarga, lewat *WhatsApp.*",
+      "start": 24.1,
+      "small": 0,
+      "stage": [
+        {
+          "type": "window",
+          "title": "WhatsApp Chat",
+          "tone": "#1f9d8a",
+          "rows": [
+            {
+              "k": "bubble",
+              "from": "user",
+              "text": "Halo, aku lagi jual ini nih"
+            },
+            {
+              "k": "bubble",
+              "from": "bot",
+              "text": "Wah, mau dong!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Biar *apa?*",
+      "start": 27,
+      "small": 0,
+      "mascot": "center",
+      "pose": "think",
+      "stage": [
+        {
+          "type": "callout",
+          "title": "Alasannya?",
+          "sub": "Kenapa harus lingkaran kecil",
+          "cta": "Cek yuk"
+        }
+      ]
+    },
+    {
+      "title": "Biar nggak terlalu ngerasa *terbebani*",
+      "start": 28.3,
+      "small": 3,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img08.png",
+          "h": 700,
+          "caption": "Efek nagih"
+        }
+      ]
+    },
+    {
+      "title": "ekspektasi orang asing yang *galak.*",
+      "start": 30.1,
+      "small": 3,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img09.png",
+          "hold": true,
+          "h": 700,
+          "caption": "ekspektasi orang asing yang"
+        }
+      ]
+    },
+    {
+      "title": "Nah, coba deh kamu *fokus* ke proses belajar",
+      "start": 32.6,
+      "small": 0,
+      "stage": [
+        {
+          "type": "list",
+          "title": "Step Belajar",
+          "items": [
+            "Pahami produk",
+            "Cara nawarin",
+            "Bicara jujur"
+          ],
+          "cta": ""
+        }
+      ]
+    },
+    {
+      "title": "cara nawarin barangnya dulu, dengan *jujur.*",
+      "start": 35.2,
+      "small": 3,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img010.png",
+          "h": 700,
+          "caption": "cara nawarin barangnya dulu,"
+        }
+      ]
+    },
+    {
+      "title": "Daripada langsung pusing mikirin *untung* jutaan,",
+      "start": 37.9,
+      "small": 3,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img011.png",
+          "h": 700,
+          "caption": "Daripada langsung pusing mikirin"
+        }
+      ]
+    },
+    {
+      "title": "yang malah bikin mental kamu *ciut* duluan.",
+      "start": 40.4,
+      "small": 0,
+      "stage": [
+        {
+          "type": "meter",
+          "title": "Mental",
+          "pct": 10,
+          "label": "Ciut"
+        }
+      ]
+    },
+    {
+      "title": "Kalau *mindset* kamu udah berubah kayak gini,",
+      "start": 43,
+      "small": 1,
+      "stage": [
+        {
+          "type": "compare",
+          "left": {
+            "title": "Lama",
+            "items": [
+              "Cari untung",
+              "Takut dinilai"
+            ],
+            "tone": "#3b6fd8"
+          },
+          "right": {
+            "title": "Baru",
+            "tone": "#1f9d8a",
+            "items": [
+              "Belajar proses",
+              "Bantu orang"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "rasa *malu* yang ganjel di hati itu bakal hilang sendiri.",
+      "start": 46.1,
+      "small": 2,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img012.png",
+          "hold": true,
+          "h": 700,
+          "caption": "rasa malu yang ganjel"
+        }
+      ]
+    },
+    {
+      "title": "Karena kamu sadar, kamu itu lagi *bantu* orang.",
+      "start": 49.9,
+      "small": 3,
+      "stage": [
+        {
+          "type": "callout",
+          "title": "Membantu",
+          "sub": "Solusi untuk mereka",
+          "cta": "Niat Baik"
+        }
+      ]
+    },
+    {
+      "title": "Nanti, pas kamu udah berhasil *laku* satu barang aja,",
+      "start": 54,
+      "small": 0,
+      "stage": [
+        {
+          "type": "stat",
+          "value": "1",
+          "label": "Sales Pertama"
+        }
+      ]
+    },
+    {
+      "title": "percaya deh, rasanya bakal *nagih* banget buat lanjut terus.",
+      "start": 57,
+      "small": 2,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img013.png",
+          "h": 700,
+          "caption": "percaya deh, rasanya bakal"
+        }
+      ]
+    },
+    {
+      "title": "Simpan video ini ya, biar kamu nggak *ragu* lagi",
+      "start": 61.6,
+      "small": 3,
+      "stage": [
+        {
+          "type": "files",
+          "title": "Simpan",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "title": "pas mau posting jualan *pertama* kamu besok pagi.",
+      "start": 64.3,
+      "small": 0,
+      "stage": [
+        {
+          "type": "callout",
+          "title": "Posting Besok!",
+          "sub": "Kamu pasti bisa",
+          "cta": ""
+        }
+      ]
+    }
+  ],
+  "header": false,
+  "charStyle": "block",
+  "transitions": [
+    "fade",
+    "slide-left",
+    "slide-up",
+    "zoom"
+  ],
+  "transitionsMode": "random",
+  "backgrounds": [
+    "cream",
+    "sky",
+    "sunset",
+    "grid",
+    "navy"
+  ],
+  "bgMode": "auto",
+  "bgEvery": 1,
+  "theme": "clean",
+  "audio": {
+    "music": true,
+    "sfx": true,
+    "blockSfx": true
+  }
+}
