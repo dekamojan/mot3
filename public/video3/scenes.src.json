@@ -1,0 +1,210 @@
+{
+  "style": "explainer",
+  "brand": "mamas",
+  "tag": "Tips Jualan WhatsApp",
+  "accent": "#FFD700",
+  "charColor": "#222222",
+  "cta": "Link-nya di bio",
+  "scenes": [
+    {
+      "title": "Kebanyakan orang *salah* di satu hal ini,",
+      "start": 0,
+      "small": 2,
+      "stage": [
+        {
+          "type": "compare",
+          "left": {
+            "title": "Salah",
+            "tone": "#e5252a",
+            "items": [
+              "Nunggu Sempurna",
+              "Takut Posting"
+            ]
+          },
+          "right": {
+            "title": "Benar",
+            "tone": "#1f9d8a",
+            "items": [
+              "Mulai Saja",
+              "Kasih Solusi"
+            ]
+          }
+        }
+      ],
+      "bg": "night",
+      "prop": "bulb"
+    },
+    {
+      "title": "soal *jualan.*",
+      "start": 3.1,
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img01.png",
+          "caption": "Beban berat jualan",
+          "at": "jualan",
+          "h": 700,
+          "frame": false
+        }
+      ],
+      "bg": "room"
+    },
+    {
+      "title": "Kamu nunggu produk *sempurna* banget,",
+      "start": 5.1,
+      "small": 2,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img02.png",
+          "caption": "Terjebak detail",
+          "at": "sempurna",
+          "h": 700,
+          "frame": false
+        }
+      ],
+      "bg": "stage",
+      "prop": "crowd"
+    },
+    {
+      "title": "baru *berani* posting kan?",
+      "start": 7.4,
+      "small": 0,
+      "stage": [
+        {
+          "type": "meter",
+          "title": "Level Keberanian",
+          "pct": 20,
+          "label": "Masih Ragu"
+        }
+      ],
+      "bg": "dusk",
+      "mascot": "right",
+      "pose": "think"
+    },
+    {
+      "title": "Padahal, mending coba mulai dari status *WhatsApp* dulu.",
+      "start": 9.6,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img03.png",
+          "caption": "Pintu WhatsApp terbuka",
+          "at": "WhatsApp",
+          "h": 700,
+          "frame": false
+        }
+      ],
+      "bg": "day",
+      "prop": "laptop"
+    },
+    {
+      "title": "Terus, fokus kasih *solusi,*",
+      "start": 13.4,
+      "small": 1,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img04.png",
+          "caption": "Membantu pembeli",
+          "at": "solusi",
+          "h": 700,
+          "frame": false
+        }
+      ],
+      "bg": "office"
+    },
+    {
+      "title": "bukan cuma *maksa* orang beli.",
+      "start": 15.7,
+      "small": 2,
+      "stage": [
+        {
+          "type": "window",
+          "title": "Status Jualan",
+          "tone": "#e5252a",
+          "rows": [
+            {
+              "k": "bubble",
+              "from": "user",
+              "text": "Beli dong kak!"
+            },
+            {
+              "k": "bubble",
+              "from": "bot",
+              "text": "Maaf, belum butuh."
+            }
+          ]
+        }
+      ],
+      "bg": "dawn",
+      "prop": "orb"
+    },
+    {
+      "title": "Jualan bakal terasa jauh lebih *ringan* nantinya.",
+      "start": 18.3,
+      "small": 0,
+      "stage": [
+        {
+          "type": "image",
+          "src": "img/img05.png",
+          "caption": "Terasa lebih ringan",
+          "at": "ringan",
+          "h": 700,
+          "frame": false
+        }
+      ],
+      "bg": "night"
+    },
+    {
+      "title": "Nah, makanya *simpan* video ini ya,",
+      "start": 21.6,
+      "small": 2,
+      "stage": [
+        {
+          "type": "callout",
+          "title": "Ingat Ini",
+          "sub": "Simpan untuk nanti",
+          "cta": "Klik Simpan"
+        }
+      ],
+      "bg": "room",
+      "prop": "shadow",
+      "mascot": "left",
+      "pose": "think"
+    },
+    {
+      "title": "biar kamu makin *berani* pas mulai besok.",
+      "start": 24.8,
+      "small": 2,
+      "stage": [
+        {
+          "type": "callout",
+          "title": "biar kamu makin berani",
+          "sub": "mamas",
+          "cta": ""
+        }
+      ],
+      "bg": "stage",
+      "mascot": "right",
+      "pose": "cheer"
+    }
+  ],
+  "header": true,
+  "charStyle": "stick",
+  "transitions": [
+    "fade",
+    "slide-left",
+    "zoom"
+  ],
+  "transitionsMode": "cycle",
+  "bgEvery": 1,
+  "theme": "classic",
+  "audio": {
+    "music": true,
+    "sfx": true,
+    "blockSfx": true
+  }
+}
